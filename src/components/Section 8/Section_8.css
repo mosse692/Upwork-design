@@ -1,0 +1,76 @@
+.Section8 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 292px;
+  background-image: url("../../images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.Newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 680px;
+  height: 203px;
+  background: #221f2c;
+  border-radius: 15px;
+}
+
+.Newsletter h1 {
+  color: white;
+  font-weight: 600;
+}
+
+.Newsletter form input {
+  width: 500px;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.7);
+  border-style: solid;
+  border-image: linear-gradient(
+      to left,
+      rgba(255, 255, 255, 0.1) 1%,
+      rgba(255, 255, 255, 1) 50%,
+      rgba(255, 255, 255, 0.1) 100%
+    )
+    0 0 100% 0/0 0 1px 0 stretch;
+  /* border-radius: 5px; */
+  font-size: 20px;
+  outline: none;
+  margin-right: -50px;
+  margin-left: 30px;
+}
+
+.Newsletter form button {
+  background: linear-gradient(90deg, #5ed3d0 0%, #83a4f6 50.52%, #8750f3 100%);
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.25);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: none;
+  height: 46px;
+  width: 128px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0px 1px 3px rgba(65, 51, 153, 0.25);
+  position: relative;
+  right: -50px;
+}
+
+.triangle {
+  width: 30px;
+  height: 20px;
+  position: absolute;
+  background-image: linear-gradient(to top right, rgba(133, 86, 243, 0.5) 50%, transparent 0);
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+  background-position: left, right;
+  right: 26%;
+  top: 7931px;
+}

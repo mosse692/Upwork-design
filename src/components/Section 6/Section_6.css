@@ -1,0 +1,81 @@
+.Section6 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  background: linear-gradient(
+      150deg,
+      rgba(61, 60, 102, 1) 0%,
+      #221f2c 33.88%,
+      #221f2c 55.18%,
+       rgba(61, 60, 102, 1) 100%
+    );;
+}
+
+.paragraph1,
+.paragraph2 {
+  color: white;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.content {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pic1 {
+  width: 365px;
+  height: 232px;
+  background-image: url("../../images/groot1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border-radius: 5px;
+  transform: rotate(-30deg);
+  position: relative;
+  bottom: -70px;
+  left: -30px;
+}
+
+.pic2 {
+  width: 365px;
+  height: 232px;
+  background: url("../../images/groot1.png") no-repeat 40% 30%;
+  border-radius: 5px;
+  position: relative;
+  top: -100px;
+  box-shadow: 0 0 100px rgba(255, 255, 255, 0.3);
+}
+
+.text_button {
+    position: relative;
+    left: 100px;
+    top: -30px;
+}
+
+.text_button p {
+  color: white;
+  font-size: 19px;
+}
+
+.text_button button {
+  background: linear-gradient(90deg, #5ed3d0 0%, #83a4f6 50.52%, #8750f3 100%);
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  border: none;
+  height: 72px;
+  width: 270px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0px 1px 3px rgba(65, 51, 153, 0.25);
+  margin-top: 3rem;
+}

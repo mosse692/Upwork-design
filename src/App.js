@@ -1,23 +1,52 @@
-import logo from './logo.svg';
 import './App.css';
+import { Nav, Section1, Section2, Section3, Section4, Section5, Section6, Section7, Section8, Footer} from './components/';
+import circle from './images/circle.svg'
+import circleBigger from './images/circleBigger.svg'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="circle">
+        <img src={circle} alt="circle shape"/>
+      </div>
+
+      <div className="circle2">
+        <img src={circle} alt="circle shape"/>
+      </div>
+
+      <div className="circle3">
+        <img src={circleBigger} alt="circle shape"/>
+      </div>
+
+      <div className="circle4">
+        <img src={circleBigger} alt="circle shape"/>
+      </div>
+
+      <div className="circle5">
+        <img src={circleBigger} alt="circle shape"/>
+      </div>
+
+      <div className="circle6">
+        <img src={circleBigger} alt="circle shape"/>
+      </div>
+
+      <div className="circle7">
+        <img src={circleBigger} alt="circle shape"/>
+      </div>
+
+      <div className="circle8">
+        <img src={circleBigger} alt="circle shape"/>
+      </div>
+      <Nav/>
+      <Section1/>
+      <Section2/>
+      <Section3/>
+      <Section4/>
+      <Section5/>
+      <Section6/>
+      <Section7/>
+      <Section8/>
+      <Footer/>
     </div>
   );
 }
